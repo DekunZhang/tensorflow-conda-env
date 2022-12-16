@@ -32,7 +32,7 @@ It will create conda environment naming `tf-server` as a base environment for sp
 After execute the first script, you can use the following command to create a new environment.
 
 ```bash
-bash conda-env-tf-clone.sh <name_for_env>
+bash conda-env-tf-clone.sh <env-name>
 ```
 
 For example
@@ -40,6 +40,14 @@ For example
 bash conda-env-tf-clone.sh training-test
 ```
 It will create a new environment naming training-test and do all other things for you, but only with jupyter and tensorflow installed.
+
+### After running the scripts
+**NOTE: PLEASE CLOSE ALL TERMINALS AFTER RUNNING THE SCRIPTS!**  
+
+Then run this to activate the environment
+```bash
+conda activate <env-name>
+```
 
 ## Jupyter Notebook default configuration
 
