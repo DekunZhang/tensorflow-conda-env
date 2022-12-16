@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Install your Nvidia graphics card driver
+Install your Nvidia graphics card driver and Anaconda/Miniconda.
 
 ## Disclaimer
 
